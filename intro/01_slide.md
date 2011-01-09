@@ -1,9 +1,28 @@
-!SLIDE 
-# My Presentation #
+!SLIDE center 
+# Rocking out with Nodejs
+### by Garren Smith
+![band](band2.png)
+
+!SLIDE center
+# About me
+![me](Contact.png)
 
 !SLIDE bullets incremental
-# Bullet Points #
+# Table of Contents
 
-* first point
-* second point
-* third point
+* Opening Notes
+* Rockstar
+* Discography
+* Demo
+* Fade out
+
+!SLIDE
+# Problem domain
+
+!SLIDE
+# Benchmarks
+
+!SLIDE
+# Hello World
+
+
