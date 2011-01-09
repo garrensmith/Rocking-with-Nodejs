@@ -1,1 +1,7 @@
-{ "name": "My Preso", "sections": [ {"section":"one"} ]}
+{ "name": "Rocking with Nodejs", "sections": [
+  {"section":"intro"} 
+  {"section":"rockstar"}
+  {"section":"albums"}
+  {"section":"demo"}
+  {"section":"conclusion"}  
+]}
