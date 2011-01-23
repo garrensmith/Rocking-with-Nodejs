@@ -5,9 +5,9 @@
 !SLIDE bullets incremental
 # Rockstar attributes
 * New environment
-* Javascript
-* Uses V8
-* Great libs
+* Uses javascript
+* Uses the V8 engine
+* Great libraries
 
 !SLIDE center
 # Rock on!

@@ -10,14 +10,14 @@
 !SLIDE bullets incremental
 # Table of Contents
 
-* Opening Notes
-* Rockstar
-* Discography
+* What is nodejs? (Opening Notes)
+* What makes nodejs a Rockstar?
+* Up and coming libraries (Discography)
 * Demo
-* Fade out
+* Rocking out
 
 !SLIDE bullets incremental
-#What is Nodejs
+#What is Nodejs?
 
   * Server-side Javascript
   * Built on Google’s V8 js engine
@@ -47,17 +47,18 @@
           // do something with result
         });
 
+
 !SLIDE center
-# Why should I use it?
-![gibson](gibson.jpg)
-
-
+#Lets see the code!
+![sheet](sheet.jpg)
 
 !SLIDE
 #Hello World
     @@@javascript
       setTimeout(function () {
+
         console.log("world");
+        
         }, 2000);
 
         console.log("hello");
@@ -69,6 +70,47 @@
     hello
     ... wait 2 seconds ...
     world
+
+!SLIDE  
+#Hello World Webserver
+    @@@javascript
+      var http = require('http');
+      
+      
+      http.createServer(function (req, res) {
+
+        res.writeHead(200, {'Content-Type': 'text/plain'});
+        res.end('Hello World\n');
+      
+      }).listen(8124, "127.0.0.1");
+
+
+!SLIDE commandline incremental
+#Hello World Webserver
+
+    $curl -i 127.0.0.1:8124
+
+    HTTP/1.1 200 OK
+    Content-Type: text/plain
+    Connection: keep-alive
+    Transfer-Encoding: chunked
+
+    Hello World
+
+
+!SLIDE center
+# Why should I use it?
+![gibson](gibson.jpg)
+
+!SLIDE bullets incremental
+# Why should I use it?
+* Efficiency
+* No deadlocks, threadings
+* Speed
+
+    
+
+      
   
     
 
