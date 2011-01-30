@@ -12,7 +12,7 @@
 
 * What is nodejs? (Opening Notes)
 * What makes nodejs a Rockstar?
-* Up and coming libraries (Discography)
+* Up and coming libraries (Albums)
 * Demo
 * Rocking out
 
@@ -96,7 +96,6 @@
     Transfer-Encoding: chunked
 
     Hello World
-
 
 !SLIDE center
 # Why should I use it?

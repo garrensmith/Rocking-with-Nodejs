@@ -14,7 +14,7 @@
 ![u2](u2.jpg)
 
 !SLIDE center
-#Discography
+#Albums
 ![guitar](guitars.jpg)
 
 !SLIDE bullets incremental

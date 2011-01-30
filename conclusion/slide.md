@@ -13,7 +13,8 @@
 * Real time applications
 * Web sockets
 * Traditional request and serve
-* Low level sockets
+* Low level sockets 
+* More modular design
 
 !SLIDE bullets
 #Resources
