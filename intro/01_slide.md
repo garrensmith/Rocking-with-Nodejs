@@ -14,6 +14,7 @@
 * What makes nodejs a Rockstar?
 * Up and coming libraries (Albums)
 * Demo
+* Hosting (Live Performance)
 * Rocking out
 
 !SLIDE bullets incremental transition=scrollLeft
@@ -110,6 +111,7 @@
 * Efficiency
 * No deadlocks, threadings
 * Speed
+* Easy scaling
 
     
 

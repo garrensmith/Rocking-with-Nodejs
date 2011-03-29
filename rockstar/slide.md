@@ -6,6 +6,7 @@
 # Rockstar attributes
 * New environment
 * Uses javascript
+* Intuitive api
 * Uses the V8 engine
 * Great libraries
 
@@ -20,7 +21,7 @@
 !SLIDE bullets incremental transition=scrollLeft
 # Libraries
 * npm
-* Express + Jade
+* Express + Jade + Stylus
 * Socket.io
 * Cradle / Mongoose
 * Expresso / Vows / Jody
