@@ -20,7 +20,7 @@
 #What is Nodejs?
 
   * Server-side Javascript
-  * Built on Google’s V8 js engine
+  * Built on Google's V8 js engine
   * Evented, non-blocking I/O. 
 
 !SLIDE center transition=scrollLeft
