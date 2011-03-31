@@ -1,5 +1,4 @@
-var http = require('http'),
-    net = require('net');
+var net = require('net');
 
 var  sockets = [];
 
@@ -9,7 +8,6 @@ var server = net.createServer(function(socket) {;
   sockets.push(socket);
 
   socket.on('data', function (data) {
-    
     sockets.forEach(function (client) {
       client.write(client.remoteAddress + "> ");
       client.write(data);
@@ -21,7 +19,6 @@ var server = net.createServer(function(socket) {;
     var i = sockets.indexOf(socket); 
     sockets.splice(i, 1);
   });
-
 
 }).listen(8124, 'localhost');
 
