@@ -14,13 +14,14 @@
 * What makes nodejs a Rockstar?
 * Up and coming libraries (Albums)
 * Demo
+* Hosting (Live Performance)
 * Rocking out
 
 !SLIDE bullets incremental transition=scrollLeft
 #What is Nodejs?
 
   * Server-side Javascript
-  * Built on Google’s V8 js engine
+  * Built on Google's V8 js engine
   * Evented, non-blocking I/O. 
 
 !SLIDE center transition=scrollLeft
@@ -110,6 +111,7 @@
 * Efficiency
 * No deadlocks, threadings
 * Speed
+* Easy scaling
 
     
 

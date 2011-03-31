@@ -1,0 +1,92 @@
+.slide {
+  border: none;
+  background: #fff; /* for non-css3 browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#B8E3F4'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#B8E3F4)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #fff,  #B8E3F4); /* for firefox 3.6+ */
+  color: #0D526F;
+}
+
+pre {
+    font-size: 2.4em;
+    margin-left: 0px;
+}
+
+
+.bullets {
+  margin-top: 0 !important;
+}
+
+.bullets ul {
+  margin-left: 60px;
+  list-style-type: disc;
+}
+
+.bullets ul li {
+  text-align: left;
+  padding: 20px 0 0 0;
+}
+
+.quote blockquote {
+  font-size: 2.5em;
+  margin-left: 30px;
+  padding-left: 15px;
+  border-left: 5px solid rgba(204, 204, 204, 0.2);
+}
+
+#head {
+  position: absolute;
+  top: 0px;
+  width: 1000px;
+  padding: 10px;
+  font-family: "Arial Rounded MT Bold";
+  color: #fff;
+  text-shadow: 0 0 3px #999;
+  text-align: left;
+}
+
+#head span {
+  float: right;
+}
+
+#foot {
+  position: absolute;
+  background: #fff;
+  top: 667px;
+  height: 73px;
+  width: 1020px;
+}
+
+#sponsors {
+  position: absolute;
+  bottom: 0px;
+  width: 1024px;
+  height: 73px;
+  background: #fff center center no-repeat;
+}
+
+a {
+  color: #0D526F;
+}
+
+.reference {
+  position: absolute;
+  top: 700px;
+  width: 990px;
+  text-align: right;
+}
+
+.reference:before {
+  content: ' - ';
+}
+
+/* Some special image */
+img[alt=Sponsors] {
+  position: absolute;
+  top: 667px;
+  margin-left: 35px;
+}
+img[alt="Mad Mimi"] {
+  float: right;
+  margin-right: 100px;
+}
