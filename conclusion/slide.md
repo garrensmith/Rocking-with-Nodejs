@@ -16,23 +16,23 @@
 * Low level sockets 
 * More modular design
 
-!SLIDE transition=scrollLeft
+!SLIDE bullets incremental transition=scrollLeft
 #Hosting
-
 * Duostack (my personal fav)
 * no.de
 * heroku
 * ec2
 
 !SLIDE bullets transition=scrollLeft
-#Resources
+#Get me started
   * nodejs.org
   * github.com/ry/node/wiki
-  * mastering node ebook
+  * nodeguide.com 
   * howtonode.org
   * google
 
 !SLIDE center transition=scrollLeft
 #Thanks
+### http://rocknode.heroku.com
 ![bass](bass.jpg)
 
