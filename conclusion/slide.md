@@ -20,13 +20,13 @@
 #Hosting
 * Duostack (my personal fav)
 * no.de
-* heroku
-* ec2
+* Heroku
+* Ec2
 
 !SLIDE bullets transition=scrollLeft
 #Get me started
   * nodejs.org
-  * github.com/ry/node/wiki
+  * github.com/joyent/node/wiki
   * nodeguide.com 
   * howtonode.org
   * google
