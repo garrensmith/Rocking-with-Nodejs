@@ -6,12 +6,15 @@
   background: -moz-linear-gradient(top,  #fff,  #B8E3F4); /* for firefox 3.6+ */
   color: #0D526F;
 }
-
+/*
 pre {
     font-size: 2.4em;
     margin-left: 0px;
 }
 
+.command .result {
+  margin-left
+}
 
 .bullets {
   margin-top: 0 !important;
@@ -79,9 +82,9 @@ a {
 .reference:before {
   content: ' - ';
 }
-
+*/
 /* Some special image */
-img[alt=Sponsors] {
+/*img[alt=Sponsors] {
   position: absolute;
   top: 667px;
   margin-left: 35px;
@@ -89,4 +92,4 @@ img[alt=Sponsors] {
 img[alt="Mad Mimi"] {
   float: right;
   margin-right: 100px;
-}
+}*/

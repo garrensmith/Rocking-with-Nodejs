@@ -23,6 +23,9 @@ var server = net.createServer(function(socket) {;
 }).listen(8124, 'localhost');
 
 
+console.log("Socket chat listening on 8124");
+
+
 
 
 
